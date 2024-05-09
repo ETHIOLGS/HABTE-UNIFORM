@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!--
+    <link rel="stylesheet"= href="index0.css">
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="index4.css">
+-->
+    <link rel="stylesheet" href="all.css">
+
+</head>
+<body class="body">
+
+    <div class="body1" onmouseover="myfun_over()">
+        <div class="nav_bar">
+
+            <div class="nav_bar1">
+                <h1 class="h1">
+                    ሀብቴ ዩኒፎርም መሸጫ
+                </h1>
+            </div>
+
+            <div class="nav_bar2"> &nbsp &nbsp &nbsp
+
+                <input title="input" class="input_1" type="search" placeholder="search" >
+
+                <button type="button" title="button" class="bt_search">
+                    <img title="image" class="img_search" src="sr.png">
+                </button>
+
+                <a class="bt_bel" ><img title="image" class="img_bel" src="bel11.png">
+                    <p class="p_bel">0</p>
+                </a>
+
+                <a class="bt_messeg" onclick="myfun_message(0)"><img title="image" class="img_messeg" src="me1.png">
+                    <p class="p_messeg">0</p>
+                </a>
+
+                <a class="bt_cart" ><img title="image" title="img" class="img_cart" src="c22.png">
+                    <P class="p_cart" id="p_cart">0</P>
+                </a>
+
+                <img title="sign in"  onclick="myfun_signup()" class="img_sign_up" src="su2.png">
+
+                <img title="login"  onclick="myfun_login()" class="img_login" src="lg2.jpg">
+            </div>
+
+            <div class="div2">
+                <button title="button" class="b1" onclick="myfun(1)">ት\ቤት</button>
+                <button title="button" class="b2" onclick="myfun(2)">ሸሚዝ</button>
+                <button title="button" class="b3" onclick="myfun(3)">ቀሚስ</button>
+                <button title="button" class="b4" onclick="myfun(4)">ሹራብ</button>
+                <button title="button" class="b5" onclick="myfun(5)">ሱሪ</button>
+                <button title="button" class="b6" onclick="myfun(6)">ጋውን</button>
+            </div>
+
+        </div>
+
+
+
+
+        <div  id="school" class="school_list">
+            <ul class="school_ul1">
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(1)">ኢንዲያና </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(2)">ብሩክ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(3)"> ኖላዊ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(4)">ኢትዮ ብሔራዊ</a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(5)"> ኣልታሜር </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(6)"> ኬሮድ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(7)"> ግሪን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(9)"> ሙሉ ሰው </a></li>
+            </ul>
+            <ul class="school_ul2">
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(8)"> ኣቡነ ጎርጎሪዎስ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(10)"> ትንሳዬ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(11)"> አበኒ  </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(12)"> ሰመር ላንድ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(13)"> ዳንዲ ቦሩ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(14)"> ሲኣትል </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(15)"> አቤኔዘር </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(16)"> አድቬንቲስት </a></li>
+            </ul>
+
+            <ul class="school_ul3">
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(17)"> ባቡ ሰላም </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(18)"> ገላን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(19)"> ኬብሮን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(20)"> T.L.T ታለንት </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(21)"> ፍሬንድስ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(22)"> ኦሽን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(23)"> ፍሪደም </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(24)"> ኢትዮ ፓራዳይዝ  </a></li>
+            </ul>
+
+            <ul class="school_ul4">
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(25)"> ሪል ቪዥን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(26)"> ቤዛ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(27)"> ሰነራይዝ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(29)"> ሪዴምሽን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(28)"> ኣለም ብርሃን </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(30)"> ፓንጃ </a></li>
+                <li class="l1s"><a class="a1" onclick="myfunschool_page(31)"> ኢኖቬሽን </a></li>
+            </ul>
+
+        </div>
+
+        <div class="scroll_img">
+            <h2 class="h2">የተማሪዎች ዩኒፎርም</h2>
+        </div>
+
+        <div class="text_1">
+            <div class="text_10">
+                <h5 class="text_101"> ሀብቴ &nbsp ዩኒፎርም &nbsp መሸጫ አዲስ አበባ ውስጥ እና
+                    ከአዲስ አበባ ውጪ ማለትም በክፍለ ሃገር ለሚገኙ የተለያዩ ትምህርት ቤቶች ጥራት ያላችውን
+                    ሙሉ የተማሪዎች ዩኒፎርም በታዘዘው ሰአት እና ጊዜ ያቀርባል። ድርጅታችን ከተማሪዎች &nbsp ዩኒፎርም
+                    በተጨማሪ &nbsp የድርጅት &nbsp የጥበቃ &nbsp ሰራተኞች &nbsp ዩኒፎርም &nbsp ፣ &nbsp የፅዳት
+                    ሰራተኞች ጋውን ፣
+                </h5>
+            </div>
+            <div class="text_11">
+                <h5 class="text_111"> የመምህራን ጋውን  ጥራቱን በጠበቀ መልኩ አዘጋጅተን እናስረክቦታለን። 
+                    ድርጅታችን በአዲስ አበባ ውስጥ ለሚገኙ ከ 70 በላይ ለሚሆኑ የግል ትምህርት ቤቶች ጥራት
+                    ላቸውን ዩኒፎርም ማለትም ጥራት ያላቸውን ሹራቦች ሱሪዎች ሸሚዞች እንዲሁም ቀሚሶችን እናዘጋጃለን።
+                </h5>
+            </div>
+        </div>
+
+
+        <br> <br> <br> <br> <br> <br>
+
+
+
+        <div class="ads_1" >
+            <div class="ads_10" >
+                <p class="ads_100">ጥራት ያላቸውን የተማሪዎች ሸሚዞችን በተመጣጣኝ ዋጋ!</p>
+            </div>
+            <div class="ads_11">
+                <img id="sdm1" class="ads_img_1" title="img" src="sd1.png">
+            </div>
+        </div>
+
+        <br> <br> <br> <br> <br> <br>
+
+
+
+        <!-- the static uniform list -->
+
+        <div class="static_img_list">
+
+
+            <!--this for shirt only-->
+
+            <div class="shirt">
+                <div class="shirt_name">
+                    <h3>ጥራት ያላቸው ሽሚዞቸ </h3>
+                </div>
+
+                <div class="shirt_right">
+
+                    <!-- shirt 1-->
+
+                    <div class="shirt_1_full">
+                        <div class="shirt_1_content">
+                            <a class="shirt_1_a0" onclick="myfun_buys1()">
+                                <img title="image" title="brl_img" class="shirt_1_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_1_a">
+                                <img title="image" title="w1_img" class="shirt_1_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_1_h6">
+                            </h6>
+                            <div class="shirt_1_star1">
+                                <a onclick="myfun1s(1)"><img title="image" id="star11" class="star1" src="star2.png"></a>
+                                <a onclick="myfun1s(2)"><img title="image" id="star12" class="star1" src="star2.png"></a>
+                                <a onclick="myfun1s(3)"><img title="image" id="star13" class="star1" src="star2.png"></a>
+                                <a onclick="myfun1s(4)"><img title="image" id="star14" class="star1" src="star2.png"></a>
+                                <a onclick="myfun1s(5)"><img title="image" id="star15" class="star1" src="star2.png"></a>
+                                <button type="button" title="button" class="star1_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- shirt 2-->
+
+                    <div class="shirt_2_full"> 
+
+                        <div class="shirt_2_content">
+                            <a class="shirt_2_a0" onclick="myfun_buys2()">
+                                <img title="image" title="brl_img" class="shirt_2_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_2_a">
+                                <img title="image" class="shirt_2_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_2_h6">
+                            </h6>
+                            <div class="shirt_2_star2">
+                                <a onclick="myfun2s(1)"><img title="image" id="star21" class="star2" src="star2.png"></a>
+                                <a onclick="myfun2s(2)"><img title="image" id="star22" class="star2" src="star2.png"></a>
+                                <a onclick="myfun2s(3)"><img title="image" id="star23" class="star2" src="star2.png"></a>
+                                <a onclick="myfun2s(4)"><img title="image" id="star24" class="star2" src="star2.png"></a>
+                                <a onclick="myfun2s(5)"><img title="image" id="star25" class="star2" src="star2.png"></a>
+                                <button title="button" class="star2_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- shirt 3-->
+        
+                    <div class="shirt_3_full"> 
+                        <div class="shirt_3_content">
+                            <a class="shirt_3_a0" onclick="myfun_buys3()">
+                                <img title="image" title="brl_img" class="shirt_3_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_3_a">
+                                <img title="image" title="bs1_img" class="shirt_3_img_1" src="bs3.png">
+                            </a>
+                            <h6 class="shirt_3_h6">
+                            </h6>
+                            <div class="shirt_3_star3">
+                                <a onclick="myfun3s(1)"><img title="image" id="star31" class="star3" src="star2.png"></a>
+                                <a onclick="myfun3s(2)"><img title="image" id="star32" class="star3" src="star2.png"></a>
+                                <a onclick="myfun3s(3)"><img title="image" id="star33" class="star3" src="star2.png"></a>
+                                <a onclick="myfun3s(4)"><img title="image" id="star34" class="star3" src="star2.png"></a>
+                                <a onclick="myfun3s(5)"><img title="image" id="star35" class="star3" src="star2.png"></a>
+                                <button title="button" class="star3_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- shirt 4-->
+        
+                    <div class="shirt_4_full"> 
+                        <div class="shirt_4_content">
+                            <a class="shirt_4_a0" onclick="myfun_buys4()">
+                                <img title="image" title="brl_img" class="shirt_4_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_4_a">
+                                <img title="image" title="bs4_img" class="shirt_4_img_1" src="bs4.png">
+                            </a>
+                            <h6 class="shirt_4_h6">
+                            </h6>
+                            <div class="shirt_4_star4">
+                                <a onclick="myfun4s(1)"><img title="image" id="star41" class="star4" src="star2.png"></a>
+                                <a onclick="myfun4s(2)"><img title="image" id="star42" class="star4" src="star2.png"></a>
+                                <a onclick="myfun4s(3)"><img title="image" id="star43" class="star4" src="star2.png"></a>
+                                <a onclick="myfun4s(4)"><img title="image" id="star44" class="star4" src="star2.png"></a>
+                                <a onclick="myfun4s(5)"><img title="image" id="star45" class="star4" src="star2.png"></a>
+                                <button title="button" class="star4_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- shirt 5-->
+        
+                    <div class="shirt_5_full"> 
+                        <div class="shirt_5_content">
+                            <a class="shirt_5_a0" onclick="myfun_buys5()">
+                                <img title="image" title="brl_img" class="shirt_5_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_5_a">
+                                <img title="image" title="w1_img" class="shirt_5_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_5_h6">
+                            </h6>
+                            <div class="shirt_5_star5">
+                                <a onclick="myfun5s(1)"><img title="image" id="star51" class="star5" src="star2.png"></a>
+                                <a onclick="myfun5s(2)"><img title="image" id="star52" class="star5" src="star2.png"></a>
+                                <a onclick="myfun5s(3)"><img title="image" id="star53" class="star5" src="star2.png"></a>
+                                <a onclick="myfun5s(4)"><img title="image" id="star54" class="star5" src="star2.png"></a>
+                                <a onclick="myfun5s(5)"><img title="image" id="star55" class="star5" src="star2.png"></a>
+                                <button title="button" class="star5_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- shirt 6-->
+
+
+                    <div class="shirt_6_full"> 
+                        <div class="shirt_6_content">
+                            <a class="shirt_6_a0" onclick="myfun_buys5()">
+                                <img title="image" title="brl_img" class="shirt_6_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_6_a">
+                                <img title="image" title="w1_img" class="shirt_6_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_6_h6">
+                            </h6>
+                            <div class="shirt_6_star6">
+                                <a onclick="myfun6s(1)"><img title="image" id="star61" class="star6" src="star2.png"></a>
+                                <a onclick="myfun6s(2)"><img title="image" id="star62" class="star6" src="star2.png"></a>
+                                <a onclick="myfun6s(3)"><img title="image" id="star63" class="star6" src="star2.png"></a>
+                                <a onclick="myfun6s(4)"><img title="image" id="star64" class="star6" src="star2.png"></a>
+                                <a onclick="myfun6s(5)"><img title="image" id="star65" class="star6" src="star2.png"></a>
+                                <button title="button" class="star6_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <!-- shirt 7-->
+        
+                    <div class="shirt_7_full"> 
+                        <div class="shirt_7_content">
+                            <a class="shirt_7_a0" onclick="myfun_buys7()">
+                                <img title="image" title="brl_img" class="shirt_7_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_7_a">
+                                <img title="image" title="bs5_img" class="shirt_7_img_1" src="bs5.png">
+                            </a>
+                            <h6 class="shirt_7_h6">
+                            </h6>
+                            <div class="shirt_7_star7">
+                                <a onclick="myfun7s(1)"><img title="image" id="star71" class="star7" src="star2.png"></a>
+                                <a onclick="myfun7s(2)"><img title="image" id="star72" class="star7" src="star2.png"></a>
+                                <a onclick="myfun7s(3)"><img title="image" id="star73" class="star7" src="star2.png"></a>
+                                <a onclick="myfun7s(4)"><img title="image" id="star74" class="star7" src="star2.png"></a>
+                                <a onclick="myfun7s(5)"><img title="image" id="star75" class="star7" src="star2.png"></a>
+                                <button title="button" class="star7_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- shirt 8-->
+        
+                    <div class="shirt_8_full"> 
+                        <div class="shirt_8_content">
+                            <a class="shirt_8_a0" onclick="myfun_buys8()">
+                                <img title="image" title="brl_img" class="shirt_8_buy" src="brl.png">
+                             </a>
+                            <a class="shirt_8_a">
+                                <img title="image" title="bs2_img" class="shirt_8_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_8_h6">
+                            </h6>
+                            <div class="shirt_8_star8">
+                                <a onclick="myfun8s(1)"><img title="image" id="star81" class="star8" src="star2.png"></a>
+                                <a onclick="myfun8s(2)"><img title="image" id="star82" class="star8" src="star2.png"></a>
+                                <a onclick="myfun8s(3)"><img title="image" id="star83" class="star8" src="star2.png"></a>
+                                <a onclick="myfun8s(4)"><img title="image" id="star84" class="star8" src="star2.png"></a>
+                                <a onclick="myfun8s(5)"><img title="image" id="star85" class="star8" src="star2.png"></a>
+                                <button title="button" class="star8_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- shirt 9-->
+        
+                    <div class="shirt_9_full"> 
+                        <div class="shirt_9_content">
+                            <a class="shirt_9_a0" onclick="myfun_buys9()">
+                                <img title="image" title="brl_img" class="shirt_9_buy" src="brl.png">
+                             </a>
+                            <a class="shirt_9_a">
+                                <img title="image" title="bs3_img" class="shirt_9_img_1" src="bs3.png">
+                            </a>
+                            <h6 class="shirt_9_h6">
+                            </h6>
+                            <div class="shirt_9_star9">
+                                <a onclick="myfun9s(1)"><img title="image" title="star91" id="star91" class="star9" src="star2.png"></a>
+                                <a onclick="myfun9s(2)"><img title="image" id="star92" class="star9" src="star2.png"></a>
+                                <a onclick="myfun9s(3)"><img title="image" id="star93" class="star9" src="star2.png"></a>
+                                <a onclick="myfun9s(4)"><img title="image" id="star94" class="star9" src="star2.png"></a>
+                                <a onclick="myfun9s(5)"><img title="image" id="star95" class="star9" src="star2.png"></a>
+                                <button title="button" class="star9_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- shirt 10-->
+        
+                    <div class="shirt_10_full"> 
+                        <div class="shirt_10_content">
+                            <a class="shirt_10_a0" onclick="myfun_buys10()">
+                                <img title="image" title="brl_img" class="shirt_10_buy" src="brl.png">
+                             </a>
+                            <a class="shirt_10_a">
+                                <img title="image" title="w1_img" class="shirt_10_img_1" src="bS1.png">
+                            </a>
+                            <h6 class="shirt_10_h6">
+                            </h6>
+                            <div class="shirt_10_star10">
+                                <a onclick="myfun10s(1)"><img title="image" id="star101" class="star10" src="star2.png"></a>
+                                <a onclick="myfun10s(2)"><img title="image" id="star102" class="star10" src="star2.png"></a>
+                                <a onclick="myfun10s(3)"><img title="image" id="star103" class="star10" src="star2.png"></a>
+                                <a onclick="myfun10s(4)"><img title="image" id="star104" class="star10" src="star2.png"></a>
+                                <a onclick="myfun10s(5)"><img title="image" id="star105" class="star10" src="star2.png"></a>
+                                <button title="button" class="star10_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- shirt 11-->
+
+                    <div class="shirt_11_full"> 
+                        <div class="shirt_11_content">
+                            <a class="shirt_11_a0" onclick="myfun_buys5()">
+                                <img title="image" title="brl_img" class="shirt_11_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_11_a">
+                                <img title="image" title="w1_img" class="shirt_11_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_11_h6">
+                            </h6>
+                            <div class="shirt_11_star11">
+                                <a onclick="myfun11s(1)"><img title="image" id="star111" class="star11" src="star2.png"></a>
+                                <a onclick="myfun11s(2)"><img title="image" id="star112" class="star11" src="star2.png"></a>
+                                <a onclick="myfun11s(3)"><img title="image" id="star113" class="star11" src="star2.png"></a>
+                                <a onclick="myfun11s(4)"><img title="image" id="star114" class="star11" src="star2.png"></a>
+                                <a onclick="myfun11s(5)"><img title="image" id="star115" class="star11" src="star2.png"></a>
+                                <button type="button" title="button" class="star11_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- shirt 12-->
+
+                    <div class="shirt_12_full"> 
+
+                        <div class="shirt_12_content">
+                            <a class="shirt_12_a0" onclick="myfun_buys2()">
+                                <img title="image" title="brl_img" class="shirt_12_buy" src="brl.png">
+                            </a>
+                            <a class="shirt_12_a">
+                                <img title="image" class="shirt_12_img_1" src="bs2.png">
+                            </a>
+                            <h6 class="shirt_12_h6">
+                            </h6>
+                            <div class="shirt_12_star12">
+                                <a onclick="myfun12s(1)"><img title="image" id="star121" class="star12" src="star2.png"></a>
+                                <a onclick="myfun12s(2)"><img title="image" id="star122" class="star12" src="star2.png"></a>
+                                <a onclick="myfun12s(3)"><img title="image" id="star123" class="star12" src="star2.png"></a>
+                                <a onclick="myfun12s(4)"><img title="image" id="star124" class="star12" src="star2.png"></a>
+                                <a onclick="myfun12s(5)"><img title="image" id="star125" class="star12" src="star2.png"></a>
+                                <button title="button" class="star12_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+
+
+            <br> <br> <br> <br> <br> <br> 
+
+
+            <div class="ads_1" >
+
+                <div class="ads_11">
+                    <img id="sdm2" class="ads_img_1" title="img" src="sd2.png">
+                </div>
+
+                <div class="ads_10" >
+                    <p class="ads_100">ጥራት ያላቸውን የተማሪዎች ሸሚዞችን በተመጣጣኝ ዋጋ!</p>
+                </div>
+
+            </div>
+
+
+            <br> <br> <br> <br> <br> <br> 
+
+
+            <div class="text_2">
+    
+                <h5 class="text_2_h2">ጥራት ያላችውን ሸሚዞች ለሚፈልጉት ትምህርት ቤት  
+                    በሚፈልጉት ሳይዝ እና ቀለም በተመጣጣኝ ዋጋ እኛ ጋር ያገኛሉ
+                </h5>
+            </div>
+    
+
+            <!--this for sweater only-->
+
+            <div class="sweater">
+                <div class="sweater_name">
+                    <h3>ጥራት ያላቸው ሹራቦች </h3>
+                </div>
+    
+    
+                <div class="sweater_right">
+
+                    <!-- sweater 1-->
+
+                    <div class="sweater_1_full"> 
+                        <div class="sweater_1_content">
+                            <a class="sweater_1_a0" onclick="myfun_buysw1()">
+                                <img title="image" title="brl_img" class="sweater_1_buy" src="brl.png">
+                            </a>
+                            <a class="sweater_1_a">
+                                <img title="image" title="w1_img" class="sweater_1_img_1" src="w2.png">
+                            </a>
+                            <h6 class="sweater_1_h6">
+                            </h6>
+                            <div class="sweater_1_starw1">
+                                <a onclick="myfun1sw(1)"><img title="image" id="starw11" class="starw1" src="star2.png"></a>
+                                <a onclick="myfun1sw(2)"><img title="image" id="starw12" class="starw1" src="star2.png"></a>
+                                <a onclick="myfun1sw(3)"><img title="image" id="starw13" class="starw1" src="star2.png"></a>
+                                <a onclick="myfun1sw(4)"><img title="image" id="starw14" class="starw1" src="star2.png"></a>
+                                <a onclick="myfun1sw(5)"><img title="image" id="starw15" class="starw1" src="star2.png"></a>
+                                <button type="button" title="button" class="starw1_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- sweater 1-->
+    
+                    <div class="sweater_2_full"> 
+                        <div class="sweater_2_content">
+                            <a class="sweater_2_a0" onclick="myfun_buyw2()">
+                                <img title="image" title="brl_img" class="sweater_2_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_2_a">
+                                <img title="image" title="g2_img" class="sweater_2_img_1" src="W11.png">
+                            </a>
+                            <h6 class="sweater_2_h6">
+                            </h6> 
+                            <div class="sweater_2_star2">
+                                <a onclick="myfun2sw(1)"><img title="image" title="star21_img" id="starw21" class="starw2" src="star2.png"></a>
+                                <a onclick="myfun2sw(2)"><img title="image" title="star22_img" id="starw22" class="starw2" src="star2.png"></a>
+                                <a onclick="myfun2sw(3)"><img title="image" title="star23_img"id="starw23" class="starw2" src="star2.png"></a>
+                                <a onclick="myfun2sw(4)"><img title="image" title="star24_img"id="starw24" class="starw2" src="star2.png"></a>
+                                <a onclick="myfun2sw(5)"><img title="image" title="star25_img"id="starw25" class="starw2" src="star2.png"></a>
+                                <button title="button" class="starw2_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    <!-- sweater 3-->
+        
+                    <div class="sweater_3_full"> 
+                        <div class="sweater_3_content">
+                            <a class="sweater_3_a0" onclick="myfun_buyw3()">
+                                <img title="image" class="sweater_3_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_3_a">
+                                <img title="image" class="sweater_3_img_1" src="W2.png">
+                            </a>
+                            <h6 class="sweater_3_h6">
+                            </h6>
+                            <div class="sweater_3_star3">
+                                <a onclick="myfun3sw(1)"><img title="image" id="starw31" class="starw3" src="star2.png"></a>
+                                <a onclick="myfun3sw(2)"><img title="image" id="starw32" class="starw3" src="star2.png"></a>
+                                <a onclick="myfun3sw(3)"><img title="image" id="starw33" class="starw3" src="star2.png"></a>
+                                <a onclick="myfun3sw(4)"><img title="image" id="starw34" class="starw3" src="star2.png"></a>
+                                <a onclick="myfun3sw(5)"><img title="image" id="starw35" class="starw3" src="star2.png"></a>
+                                <button title="button" class="starw3_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+        
+                    <!-- sweater 4-->
+        
+                    <div class="sweater_4_full"> 
+                        <div class="sweater_4_content">
+                            <a class="sweater_4_a0" onclick="myfun_buyw4()">
+                                <img title="image" class="sweater_4_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_4_a">
+                                <img title="image" class="sweater_4_img_1" src="W3.png">
+                            </a>
+                            <h6 class="sweater_4_h6">
+                            </h6>
+                            <div class="sweater_4_star4">
+                                <a onclick="myfun4sw(1)"><img title="image" id="starw41" class="starw4" src="star2.png"></a>
+                                <a onclick="myfun4sw(2)"><img title="image" id="starw42" class="starw4" src="star2.png"></a>
+                                <a onclick="myfun4sw(3)"><img title="image" id="starw43" class="starw4" src="star2.png"></a>
+                                <a onclick="myfun4sw(4)"><img title="image" id="starw44" class="starw4" src="star2.png"></a>
+                                <a onclick="myfun4sw(5)"><img title="image" id="starw45" class="starw4" src="star2.png"></a>
+                                <button title="button" class="starw4_bt">submit</button> 
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- sweater 5-->
+        
+                    <div class="sweater_5_full"> 
+                        <div class="sweater_5_content">
+                            <a class="sweater_5_a0" onclick="myfun_buyw5()">
+                                <img title="image" class="sweater_5_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_5_a">
+                                <img title="image" class="sweater_5_img_1" src="W4.png">
+                            </a>
+                            <h6 class="sweater_5_h6">
+                            </h6>
+                            <div class="sweater_5_star5">
+                                <a onclick="myfun5sw(1)"><img title="image" id="starw51" class="starw5" src="star2.png"></a>
+                                <a onclick="myfun5sw(2)"><img title="image" id="starw52" class="starw5" src="star2.png"></a>
+                                <a onclick="myfun5sw(3)"><img title="image" id="starw53" class="starw5" src="star2.png"></a>
+                                <a onclick="myfun5sw(4)"><img title="image" id="starw54" class="starw5" src="star2.png"></a>
+                                <a onclick="myfun5sw(5)"><img title="image" id="starw55" class="starw5" src="star2.png"></a>
+                                <button title="button" class="starw5_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- sweater 6-->
+                    
+                    <div class="sweater_6_full"> 
+                        <div class="sweater_6_content">
+                            <a class="sweater_6_a0" onclick="myfun_buys5()">
+                                <img title="image" title="brl_img" class="sweater_6_buy" src="brl.png">
+                            </a>
+                            <a class="sweater_6_a">
+                                <img title="image" title="w1_img" class="sweater_6_img_1" src="w4.png">
+                            </a>
+                            <h6 class="sweater_6_h6">
+                            </h6>
+                            <div class="sweater_6_starw6">
+                                <a onclick="myfun6sw(1)"><img title="image" id="starw61" class="starw6" src="star2.png"></a>
+                                <a onclick="myfun6sw(2)"><img title="image" id="starw62" class="starw6" src="star2.png"></a>
+                                <a onclick="myfun6sw(3)"><img title="image" id="starw63" class="starw6" src="star2.png"></a>
+                                <a onclick="myfun6sw(4)"><img title="image" id="starw64" class="starw6" src="star2.png"></a>
+                                <a onclick="myfun6sw(5)"><img title="image" id="starw65" class="starw6" src="star2.png"></a>
+                                <button title="button" class="starw6_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- sweater 7-->
+        
+                    <div class="sweater_7_full"> 
+                        <div class="sweater_7_content">
+                            <a class="sweater_7_a0" onclick="myfun_buyw7()">
+                                <img title="image" class="sweater_7_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_7_a">
+                                <img title="image" class="sweater_7_img_1" src="W5.png">
+                            </a>
+                            <h6 class="sweater_7_h6">
+                            </h6>
+                            <div class="sweater_7_star7">
+                                <a onclick="myfun7sw(1)"><img title="image" id="starw71" class="starw7" src="star2.png"></a>
+                                <a onclick="myfun7sw(2)"><img title="image" id="starw72" class="starw7" src="star2.png"></a>
+                                <a onclick="myfun7sw(3)"><img title="image" id="starw73" class="starw7" src="star2.png"></a>
+                                <a onclick="myfun7sw(4)"><img title="image" id="starw74" class="starw7" src="star2.png"></a>
+                                <a onclick="myfun7sw(5)"><img title="image" id="starw75" class="starw7" src="star2.png"></a>
+                                <button title="button" class="starw7_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+        
+                    <!-- sweater 8-->
+        
+                    <div class="sweater_8_full"> 
+                        <div class="sweater_8_content">
+                            <a class="sweater_8_a0" onclick="myfun_buyw8()">
+                                <img title="image" class="sweater_8_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_8_a">
+                                <img title="image" class="sweater_8_img_1" src="W6.png">
+                            </a>
+                            <h6 class="sweater_8_h6">
+                            </h6>
+                            <div class="sweater_8_star8">
+                                <a onclick="myfun8sw(1)"><img title="image" id="starw81" class="starw8" src="star2.png"></a>
+                                <a onclick="myfun8sw(2)"><img title="image" id="starw82" class="starw8" src="star2.png"></a>
+                                <a onclick="myfun8sw(3)"><img title="image" id="starw83" class="starw8" src="star2.png"></a>
+                                <a onclick="myfun8sw(4)"><img title="image" id="starw84" class="starw8" src="star2.png"></a>
+                                <a onclick="myfun8sw(5)"><img title="image" id="starw85" class="starw8" src="star2.png"></a>
+                                <button title="button" class="starw8_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+        
+                    <!-- sweater 9-->
+        
+                    <div class="sweater_9_full"> 
+                        <div class="sweater_9_content">
+                            <a class="sweater_9_a0" onclick="myfun_buyw9()">
+                                <img title="image" class="sweater_9_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_9_a">
+                                <img title="image" class="sweater_9_img_1" src="W7.png">
+                            </a>
+                            <h6 class="sweater_9_h6">
+                            </h6>
+                            <div class="sweater_9_star9">
+                                <a onclick="myfun9sw(1)"><img title="image" id="starw91" class="starw9" src="star2.png"></a>
+                                <a onclick="myfun9sw(2)"><img title="image" id="starw92" class="starw9" src="star2.png"></a>
+                                <a onclick="myfun9sw(3)"><img title="image" id="starw93" class="starw9" src="star2.png"></a>
+                                <a onclick="myfun9sw(4)"><img title="image" id="starw94" class="starw9" src="star2.png"></a>
+                                <a onclick="myfun9sw(5)"><img title="image" id="starw95" class="starw9" src="star2.png"></a>
+                                <button title="button" class="starw9_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+        
+                    <!-- sweater 10-->
+        
+                    <div class="sweater_10_full"> 
+                        <div class="sweater_10_content">
+                            <a class="sweater_10_a0" onclick="myfun_buyw10()">
+                                <img title="image" class="sweater_10_buy" src="brl.png">
+                             </a>
+                            <a class="sweater_10_a">
+                                <img title="image" class="sweater_10_img_1" src="W8.png">
+                            </a>
+                            <h6 class="sweater_10_h6">
+                            </h6>
+                            <div class="sweater_10_star10">
+                                <a onclick="myfun10sw(1)"><img title="image" id="starw101" class="starw10" src="star2.png"></a>
+                                <a onclick="myfun10sw(2)"><img title="image" id="starw102" class="starw10" src="star2.png"></a>
+                                <a onclick="myfun10sw(3)"><img title="image" id="starw103" class="starw10" src="star2.png"></a>
+                                <a onclick="myfun10sw(4)"><img title="image" id="starw104" class="starw10" src="star2.png"></a>
+                                <a onclick="myfun10sw(5)"><img title="image" id="starw105" class="starw10" src="star2.png"></a>
+                                <button title="button" class="starw10_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- sweater 11-->
+
+                    <div class="sweater_11_full"> 
+                        <div class="sweater_11_content">
+                            <a class="sweater_11_a0" onclick="myfun_buysw11()">
+                                <img title="image" title="brl_img" class="sweater_11_buy" src="brl.png">
+                            </a>
+                            <a class="sweater_11_a">
+                                <img title="image" title="w1_img" class="sweater_11_img_1" src="w3.png">
+                            </a>
+                            <h6 class="sweater_11_h6">
+                            </h6>
+                            <div class="sweater_11_starw11">
+                                <a onclick="myfun11sw(1)"><img title="image" id="starw111" class="starw11" src="star2.png"></a>
+                                <a onclick="myfun11sw(2)"><img title="image" id="starw112" class="starw11" src="star2.png"></a>
+                                <a onclick="myfun11sw(3)"><img title="image" id="starw113" class="starw11" src="star2.png"></a>
+                                <a onclick="myfun11sw(4)"><img title="image" id="starw114" class="starw11" src="star2.png"></a>
+                                <a onclick="myfun11sw(5)"><img title="image" id="starw115" class="starw11" src="star2.png"></a>
+                                <button type="button" title="button" class="starw11_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- sweater 12-->
+
+                    <div class="sweater_12_full"> 
+
+                        <div class="sweater_12_content">
+                            <a class="sweater_12_a0" onclick="myfun_buysw22()">
+                                <img title="image" title="brl_img" class="sweater_12_buy" src="brl.png">
+                            </a>
+                            <a class="sweater_12_a">
+                                <img title="image" class="sweater_12_img_1" src="w2.png">
+                            </a>
+                            <h6 class="sweater_12_h6">
+                            </h6>
+                            <div class="sweater_12_starw12">
+                                <a onclick="myfun12sw(1)"><img title="image" id="starw121" class="starw12" src="star2.png"></a>
+                                <a onclick="myfun12sw(2)"><img title="image" id="starw122" class="starw12" src="star2.png"></a>
+                                <a onclick="myfun12sw(3)"><img title="image" id="starw123" class="starw12" src="star2.png"></a>
+                                <a onclick="myfun12sw(4)"><img title="image" id="starw124" class="starw12" src="star2.png"></a>
+                                <a onclick="myfun12sw(5)"><img title="image" id="starw125" class="starw12" src="star2.png"></a>
+                                <button title="button" class="starw12_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+
+
+
+
+            <br> <br> <br> <br> <br> <br> 
+
+            <div class="ads_1" > 
+                <div class="ads_10" >
+                    <p class="ads_100">ጥራት ያላቸውን የተማሪዎች ሸሚዞችን በተመጣጣኝ ዋጋ!</p>
+                </div>
+                <div  class="ads_11">
+                    <img id="sdm3" class="ads_img_1" title="img" src="sd1.png">
+                </div>
+            </div>
+
+            <br> <br> <br> <br> <br> <br> 
+
+
+
+
+            <!--this for thrauther only-->
+
+            <div class="trauther">
+                <div class="trauther_name">
+                    <h3>ጥራት ያላቸው የተማሪዎች ሱሪዎች  </h3>
+                </div>
+            
+            
+                <div class="trauther_right">
+
+                    <!-- trauther 1-->
+
+                    <div class="trauther_1_full"> 
+                        <div class="trauther_1_content">
+                            <a class="trauther_1_a0" onclick="myfun_buyt2()">
+                                <img title="image" class="trauther_1_buy" src="t1.png">
+                             </a>
+                            <a class="trauther_1_a">
+                                <img title="image" class="trauther_1_img_1" src="t1.png">
+                            </a>
+                            <h6 class="trauther_1_h6">
+                            </h6>
+                            <div class="trauther_1_start1">
+                                <a onclick="myfun1t(1)"><img title="image" id="start11" class="start1" src="star2.png"></a>
+                                <a onclick="myfun1t(2)"><img title="image" id="start12" class="start1" src="star2.png"></a>
+                                <a onclick="myfun1t(3)"><img title="image" id="start13" class="start1" src="star2.png"></a>
+                                <a onclick="myfun1t(4)"><img title="image" id="start14" class="start1" src="star2.png"></a>
+                                <a onclick="myfun1t(5)"><img title="image" id="start15" class="start1" src="star2.png"></a>
+                                <button type="button" title="button" class="start1_bt">submit</button> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- trauther 2-->
+            
+                    <div class="trauther_2_full"> 
+                        <div class="trauther_2_content">
+                            <a class="trauther_3_a0" onclick="myfun_buyt2()">
+                                <img title="image" class="trauther_3_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_2_a">
+                                <img title="image" class="trauther_2_img_1" src="t3.png">
+                            </a>
+                            <h6 class="trauther_2_h6">
+                            </h6>
+                            <div class="trauther_2_star2">
+                                <a onclick="myfun2t(1)"><img title="image" id="start21" class="start2" src="star2.png"></a>
+                                <a onclick="myfun2t(2)"><img title="image" id="start22" class="start2" src="star2.png"></a>
+                                <a onclick="myfun2t(3)"><img title="image" id="start23" class="start2" src="star2.png"></a>
+                                <a onclick="myfun2t(4)"><img title="image" id="start24" class="start2" src="star2.png"></a>
+                                <a onclick="myfun2t(5)"><img title="image" id="start25" class="start2" src="star2.png"></a>
+                                <button title="button" class="start2_bt">submit</button> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- trauther 3-->
+            
+                    <div class="trauther_3_full"> 
+                        <div class="trauther_3_content">
+                            <a class="trauther_3_a0" onclick="myfun_buyt3()">
+                                <img title="image" class="trauther_3_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_3_a">
+                                <img title="image" class="trauther_3_img_1" src="t7.png">
+                            </a>
+                            <h6 class="trauther_3_h6">
+                            </h6>
+                            <div class="trauther_3_star3">
+                                <a onclick="myfun3t(1)"><img title="image" id="start31" class="start3" src="star2.png"></a>
+                                <a onclick="myfun3t(2)"><img title="image" id="start32" class="start3" src="star2.png"></a>
+                                <a onclick="myfun3t(3)"><img title="image" id="start33" class="start3" src="star2.png"></a>
+                                <a onclick="myfun3t(4)"><img title="image" id="start34" class="start3" src="star2.png"></a>
+                                <a onclick="myfun3t(5)"><img title="image" id="start35" class="start3" src="star2.png"></a>
+                                <button title="button" class="start3_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- trauther 4-->
+            
+                    <div class="trauther_4_full"> 
+                        <div class="trauther_4_content">
+                            <a class="trauther_4_a0" onclick="myfun_buyt4()">
+                                <img title="image" class="trauther_4_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_4_a">
+                                <img title="image" class="trauther_4_img_1" src="t4.png">
+                            </a>
+                            <h6 class="trauther_4_h6">
+                            </h6>
+                            <div class="trauther_4_star4">
+                                <a onclick="myfun4t(1)"><img title="image" id="start41" class="start4" src="star2.png"></a>
+                                <a onclick="myfun4t(2)"><img title="image" id="start42" class="start4" src="star2.png"></a>
+                                <a onclick="myfun4t(3)"><img title="image" id="start43" class="start4" src="star2.png"></a>
+                                <a onclick="myfun4t(4)"><img title="image" id="start44" class="start4" src="star2.png"></a>
+                                <a onclick="myfun4t(5)"><img title="image" id="start45" class="start4" src="star2.png"></a>
+                                <button title="button" class="start4_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- trauther 5-->
+            
+                    <div class="trauther_5_full"> 
+                        <div class="trauther_5_content">
+                            <a class="trauther_5_a">
+                                <a class="trauther_5_a0" onclick="myfun_buyt5()">
+                                    <img title="image" class="trauther_5_buy" src="brl.png">
+                                 </a>
+                                <img title="image" class="trauther_5_img_1" src="t5.png">
+                            </a>
+                            <h6 class="trauther_5_h6">
+                            </h6>
+                            <div class="trauther_5_star5">
+                                <a onclick="myfun5t(1)"><img title="image" id="start51" class="start5" src="star2.png"></a>
+                                <a onclick="myfun5t(2)"><img title="image" id="start52" class="start5" src="star2.png"></a>
+                                <a onclick="myfun5t(3)"><img title="image" id="start53" class="start5" src="star2.png"></a>
+                                <a onclick="myfun5t(4)"><img title="image" id="start54" class="start5" src="star2.png"></a>
+                                <a onclick="myfun5t(5)"><img title="image" id="start55" class="start5" src="star2.png"></a>
+                                <button title="button" class="start5_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- trauther 6-->
+
+                    <div class="trauther_6_full"> 
+                        <div class="trauther_6_content">
+                            <a class="trauther_6_a0" onclick="myfun_buyt2()">
+                                <img title="image" class="trauther_6_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_6_a">
+                                <img title="image" class="trauther_6_img_1" src="t6.png">
+                            </a>
+                            <h6 class="trauther_6_h6">
+                            </h6>
+                            <div class="trauther_6_start6">
+                                <a onclick="myfun2t(1)"><img title="image" id="start61" class="start6" src="star2.png"></a>
+                                <a onclick="myfun6t(2)"><img title="image" id="start62" class="start6" src="star2.png"></a>
+                                <a onclick="myfun6t(3)"><img title="image" id="start63" class="start6" src="star2.png"></a>
+                                <a onclick="myfun6t(4)"><img title="image" id="start64" class="start6" src="star2.png"></a>
+                                <a onclick="myfun6t(5)"><img title="image" id="start65" class="start6" src="star2.png"></a>
+                                <button title="button" class="start6_bt">submit</button> 
+                            </div>
+                        </div>
+                    </div>
+            
+            
+                    <!-- trauther 7-->
+            
+                    <div class="trauther_7_full"> 
+                        <div class="trauther_7_content">
+                            <a class="trauther_7_a0" onclick="myfun_buyt7()">
+                                <img title="image" class="trauther_7_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_7_a">
+                                <img title="image" class="trauther_7_img_1" src="t7.png">
+                            </a>
+                            <h6 class="trauther_7_h6">
+                            </h6>
+                            <div class="trauther_7_star7">
+                                <a onclick="myfun7t(1)"><img title="image" id="start71" class="start7" src="star2.png"></a>
+                                <a onclick="myfun7t(2)"><img title="image" id="start72" class="start7" src="star2.png"></a>
+                                <a onclick="myfun7t(3)"><img title="image" id="start73" class="start7" src="star2.png"></a>
+                                <a onclick="myfun7t(4)"><img title="image" id="start74" class="start7" src="star2.png"></a>
+                                <a onclick="myfun7t(5)"><img title="image" id="start75" class="start7" src="star2.png"></a>
+                                <button title="button" class="start7_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- trauther 8-->
+            
+                    <div class="trauther_8_full"> 
+                        <div class="trauther_8_content">
+                            <a class="trauther_8_a0" onclick="myfun_buyt8()">
+                                <img title="image" class="trauther_8_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_8_a">
+                                <img title="image" class="trauther_8_img_1" src="t6.png">
+                            </a>
+                            <h6 class="trauther_8_h6">
+                            </h6>
+                            <div class="trauther_8_star8">
+                                <a onclick="myfun8t(1)"><img title="image" id="start81" class="start8" src="star2.png"></a>
+                                <a onclick="myfun8t(2)"><img title="image" id="start82" class="start8" src="star2.png"></a>
+                                <a onclick="myfun8t(3)"><img title="image" id="start83" class="start8" src="star2.png"></a>
+                                <a onclick="myfun8t(4)"><img title="image" id="start84" class="start8" src="star2.png"></a>
+                                <a onclick="myfun8t(5)"><img title="image" id="start85" class="start8" src="star2.png"></a>
+                                <button title="button" class="start8_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- trauther 9-->
+            
+                    <div class="trauther_9_full"> 
+                        <div class="trauther_9_content">
+                            <a class="trauther_9_a0" onclick="myfun_buyt9()">
+                                <img title="image" class="trauther_9_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_9_a">
+                                <img title="image" class="trauther_9_img_1" src="t7.png">
+                            </a>
+                            <h6 class="trauther_9_h6">
+                            </h6>
+                            <div class="trauther_9_star9">
+                                <a onclick="myfun9t(1)"><img title="image" id="start91" class="start9" src="star2.png"></a>
+                                <a onclick="myfun9t(2)"><img title="image" id="start92" class="start9" src="star2.png"></a>
+                                <a onclick="myfun9t(3)"><img title="image" id="start93" class="start9" src="star2.png"></a>
+                                <a onclick="myfun9t(4)"><img title="image" id="start94" class="start9" src="star2.png"></a>
+                                <a onclick="myfun9t(5)"><img title="image" id="start95" class="start9" src="star2.png"></a>
+                                <button title="button" class="start9_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- trauther 10-->
+            
+                    <div class="trauther_10_full"> 
+                        <div class="trauther_10_content">
+                            <a class="trauther_10_a0" onclick="myfun_buyt10()">
+                                <img title="image" class="trauther_10_buy" src="brl.png">
+                             </a>
+                            <a class="trauther_10_a">
+                                <img title="image" class="trauther_10_img_1" src="t3.png">
+                            </a>
+                            <h6 class="trauther_10_h6">
+                            </h6>
+                            <div class="trauther_10_star10">
+                                <a onclick="myfun10t(1)"><img title="image" id="start101" class="start10" src="star2.png"></a>
+                                <a onclick="myfun10t(2)"><img title="image" id="start102" class="start10" src="star2.png"></a>
+                                <a onclick="myfun10t(3)"><img title="image" id="start103" class="start10" src="star2.png"></a>
+                                <a onclick="myfun10t(4)"><img title="image" id="start104" class="start10" src="star2.png"></a>
+                                <a onclick="myfun10t(5)"><img title="image" id="start105" class="start10" src="star2.png"></a>
+                                <button title="button" class="start10_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- trauther 11-->
+
+                    <div class="trauther_11_full"> 
+                        <div class="trauther_11_content">
+                            <a class="trauther_11_a0" onclick="myfun_buyt11()">
+                                <img title="image" title="brl_img" class="trauther_11_buy" src="brl.png">
+                            </a>
+                            <a class="trauther_11_a">
+                                <img title="image" title="w1_img" class="trauther_11_img_1" src="t4.png">
+                            </a>
+                            <h6 class="trauther_11_h6">
+                            </h6>
+                            <div class="trauther_11_start11">
+                                <a onclick="myfun11t(1)"><img title="image" id="start111" class="start11" src="star2.png"></a>
+                                <a onclick="myfun11t(2)"><img title="image" id="start112" class="start11" src="star2.png"></a>
+                                <a onclick="myfun11t(3)"><img title="image" id="start113" class="start11" src="star2.png"></a>
+                                <a onclick="myfun11t(4)"><img title="image" id="start114" class="start11" src="star2.png"></a>
+                                <a onclick="myfun11t(5)"><img title="image" id="start115" class="start11" src="star2.png"></a>
+                                <button type="button" title="button" class="start11_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- trauther 12-->
+
+                    <div class="trauther_12_full"> 
+
+                        <div class="trauther_12_content">
+                            <a class="trauther_12_a0" onclick="myfun_buyt12()">
+                                <img title="image" title="brl_img" class="trauther_12_buy" src="brl.png">
+                            </a>
+                            <a class="trauther_12_a">
+                                <img title="image" class="trauther_12_img_1" src="t5.png">
+                            </a>
+                            <h6 class="trauther_12_h6">
+                            </h6>
+                            <div class="trauther_12_start12">
+                                <a onclick="myfun12t(1)"><img title="image" id="start121" class="start12" src="star2.png"></a>
+                                <a onclick="myfun12t(2)"><img title="image" id="start122" class="start12" src="star2.png"></a>
+                                <a onclick="myfun12t(3)"><img title="image" id="start123" class="start12" src="star2.png"></a>
+                                <a onclick="myfun12t(4)"><img title="image" id="start124" class="start12" src="star2.png"></a>
+                                <a onclick="myfun12t(5)"><img title="image" id="start125" class="start12" src="star2.png"></a>
+                                <button title="button" class="start12_bt">submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <br> <br> <br>  <br> <br> <br> 
+
+
+            <div class="ads_1">
+
+                <div class="ads_11" >
+                    <img id="sdm4" class="ads_img_1" title="img" src="sd2.png">
+                </div>
+
+                <div class="ads_10" >
+                    <p class="ads_100">ጥራት ያላቸውን የተማሪዎች ሸሚዞችን በተመጣጣኝ ዋጋ!</p>
+                </div>
+
+            </div>
+
+
+
+            <br> <br> <br> <br> <br> <br> 
+
+
+            <!--this only for the dress -->
+
+            <div class="dress">
+                <div class="dress_name">
+                    <h3>ጥራት ያላቸው የተማሪዎች ቀሚሶች  </h3>
+                </div>
+            
+            
+                <div class="dress_right">
+
+                    <!-- dress 1-->
+
+
+                    <div class="dress_1_full"> 
+                        <div class="dress_1_content">
+                            <a class="dress_1_a0" onclick="myfun_buyd5()">
+                                <img title="image" class="dress_1_buy" src="brl.png">
+                             </a>
+                            <a class="dress_1_a">
+                                <img title="image" class="dress_1_img_1" src="d1d2.png">
+                            </a>
+                            <h6 class="dress_1_h6">
+                            </h6>
+                            <div class="dress_1_stard1">
+                                <a onclick="myfun1d(1)"><img title="image" id="stard11" class="stard1" src="star2.png"></a>
+                                <a onclick="myfun1d(2)"><img title="image" id="stard12" class="stard1" src="star2.png"></a>
+                                <a onclick="myfun1d(3)"><img title="image" id="stard13" class="stard1" src="star2.png"></a>
+                                <a onclick="myfun1d(4)"><img title="image" id="stard14" class="stard1" src="star2.png"></a>
+                                <a onclick="myfun1d(5)"><img title="image" id="stard15" class="stard1" src="star2.png"></a>
+                                <button type="button" title="button" class="stard1_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <!-- dress 2-->
+            
+                    <div class="dress_2_full"> 
+                        <div class="dress_2_content">
+                            <a class="dress_2_a0" onclick="myfun_buyd2()">
+                                <img title="image" class="dress_2_buy" src="brl.png">
+                             </a>
+                            <a class="dress_2_a">
+                                <img title="image" class="dress_2_img_1" src="d4.png">
+                            </a>
+                            <h6 class="dress_2_h6">
+                            </h6>
+                            <div class="dress_2_star2">
+                                <a onclick="myfun2d(1)"><img title="image" id="stard21" class="stard2" src="star2.png"></a>
+                                <a onclick="myfun2d(2)"><img title="image" id="stard22" class="stard2" src="star2.png"></a>
+                                <a onclick="myfun2d(3)"><img title="image" id="stard23" class="stard2" src="star2.png"></a>
+                                <a onclick="myfun2d(4)"><img title="image" id="stard24" class="stard2" src="star2.png"></a>
+                                <a onclick="myfun2d(5)"><img title="image" id="stard25" class="stard2" src="star2.png"></a>
+                                <button title="button" class="stard2_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    <!-- dress 3-->
+            
+                    <div class="dress_3_full"> 
+                        <div class="dress_3_content">
+                            <a class="dress_3_a0" onclick="myfun_buyd3()">
+                                <img title="image" class="dress_3_buy" src="brl.png">
+                             </a>
+                            <a class="dress_3_a">
+                                <img title="image" class="dress_3_img_1" src="d1d2.png">
+                            </a>
+                            <h6 class="dress_3_h6">
+                            </h6>
+                            <div class="dress_3_star3">
+                                <a onclick="myfun3d(1)"><img title="image" id="stard31" class="stard3" src="star2.png"></a>
+                                <a onclick="myfun3d(2)"><img title="image" id="stard32" class="stard3" src="star2.png"></a>
+                                <a onclick="myfun3d(3)"><img title="image" id="stard33" class="stard3" src="star2.png"></a>
+                                <a onclick="myfun3d(4)"><img title="image" id="stard34" class="stard3" src="star2.png"></a>
+                                <a onclick="myfun3d(5)"><img title="image" id="stard35" class="stard3" src="star2.png"></a>
+                                <button title="button" class="stard3_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- dress 4-->
+            
+                    <div class="dress_4_full"> 
+                        <div class="dress_4_content">
+                            <a class="dress_4_a0" onclick="myfun_buyd44()">
+                                <img title="image" class="dress_4_buy" src="brl.png">
+                             </a>
+                            <a class="dress_4_a">
+                                <img title="image" class="dress_4_img_1" src="d4.png">
+                            </a>
+                            <h6 class="dress_4_h6">
+                            </h6>
+                            <div class="dress_4_star4">
+                                <a onclick="myfun4d(1)"><img title="image" id="stard41" class="stard4" src="star2.png"></a>
+                                <a onclick="myfun4d(2)"><img title="image" id="stard42" class="stard4" src="star2.png"></a>
+                                <a onclick="myfun4d(3)"><img title="image" id="stard43" class="stard4" src="star2.png"></a>
+                                <a onclick="myfun4d(4)"><img title="image" id="stard44" class="stard4" src="star2.png"></a>
+                                <a onclick="myfun4d(5)"><img title="image" id="stard45" class="stard4" src="star2.png"></a>
+                                <button title="button" class="stard4_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- dress 5-->
+            
+                    <div class="dress_5_full"> 
+                        <div class="dress_5_content">
+                            <a class="dress_5_a0" onclick="myfun_buyd5()">
+                                <img title="image" class="dress_5_buy" src="brl.png">
+                             </a>
+                            <a class="dress_5_a">
+                                <img title="image" class="dress_5_img_1" src="d1d2.png">
+                            </a>
+                            <h6 class="dress_5_h6">
+                            </h6>
+                            <div class="dress_5_star5">
+                                <a onclick="myfun5d(1)"><img title="image" id="stard51" class="stard5" src="star2.png"></a>
+                                <a onclick="myfun5d(2)"><img title="image" id="stard52" class="stard5" src="star2.png"></a>
+                                <a onclick="myfun5d(3)"><img title="image" id="stard53" class="stard5" src="star2.png"></a>
+                                <a onclick="myfun5d(4)"><img title="image" id="stard54" class="stard5" src="star2.png"></a>
+                                <a onclick="myfun5d(5)"><img title="image" id="stard55" class="stard5" src="star2.png"></a>
+                                <button title="button" class="stard5_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- dress 6-->
+
+                    <div class="dress_6_full"> 
+                        <div class="dress_6_content">
+                            <a class="dress_6_a0" onclick="myfun_buyd5()">
+                                <img title="image" class="dress_6_buy" src="brl.png">
+                             </a>
+                            <a class="dress_6_a">
+                                <img title="image" class="dress_6_img_1" src="d1d2.png">
+                            </a>
+                            <h6 class="dress_6_h6">
+                            </h6>
+                            <div class="dress_6_stard6">
+                                <a onclick="myfun6d(1)"><img title="image" id="stard61" class="stard6" src="star2.png"></a>
+                                <a onclick="myfun6d(2)"><img title="image" id="stard62" class="stard6" src="star2.png"></a>
+                                <a onclick="myfun6d(3)"><img title="image" id="stard63" class="stard6" src="star2.png"></a>
+                                <a onclick="myfun6d(4)"><img title="image" id="stard64" class="stard6" src="star2.png"></a>
+                                <a onclick="myfun6d(5)"><img title="image" id="stard65" class="stard6" src="star2.png"></a>
+                                <button title="button" class="stard6_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+            
+                     <!-- dress 7-->
+            
+                    <div class="dress_7_full"> 
+                        <div class="dress_7_content">
+                            <a class="dress_7_a0" onclick="myfun_buyd7()">
+                                <img title="image" class="dress_7_buy" src="brl.png">
+                             </a>
+                            <a class="dress_7_a">
+                                <img title="image" class="dress_7_img_1" src="d5.png">
+                            </a>
+                            <h6 class="dress_7_h6">
+                            </h6>
+                            <div class="dress_7_star7">
+                                <a onclick="myfun7d(1)"><img title="image" id="stard71" class="stard7" src="star2.png"></a>
+                                <a onclick="myfun7d(2)"><img title="image" id="stard72" class="stard7" src="star2.png"></a>
+                                <a onclick="myfun7d(3)"><img title="image" id="stard73" class="stard7" src="star2.png"></a>
+                                <a onclick="myfun7d(4)"><img title="image" id="stard74" class="stard7" src="star2.png"></a>
+                                <a onclick="myfun7d(5)"><img title="image" id="stard75" class="stard7" src="star2.png"></a>
+                                <button title="button" class="stard7_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- dress 8-->
+            
+                    <div class="dress_8_full"> 
+                        <div class="dress_8_content">
+                            <a class="dress_8_a0" onclick="myfun_buyd8()">
+                                <img title="image" class="dress_8_buy" src="brl.png">
+                             </a>
+                            <a class="dress_8_a">
+                                <img title="image" class="dress_8_img_1" src="d6.png">
+                            </a>
+                            <h6 class="dress_8_h6">
+                            </h6>
+                            <div class="dress_8_star8">
+                                <a onclick="myfun8d(1)"><img title="image" id="stard81" class="stard8" src="star2.png"></a>
+                                <a onclick="myfun8d(2)"><img title="image" id="stard82" class="stard8" src="star2.png"></a>
+                                <a onclick="myfun8d(3)"><img title="image" id="stard83" class="stard8" src="star2.png"></a>
+                                <a onclick="myfun8d(4)"><img title="image" id="stard84" class="stard8" src="star2.png"></a>
+                                <a onclick="myfun8d(5)"><img title="image" id="stard85" class="stard8" src="star2.png"></a>
+                                <button title="button" class="stard8_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- dress 9-->
+            
+                    <div class="dress_9_full"> 
+                        <div class="dress_9_content">
+                            <a class="dress_9_a0" onclick="myfun_buyd9()">
+                                <img title="image" class="dress_9_buy" src="brl.png">
+                             </a>
+                            <a class="dress_9_a">
+                                <img title="image" class="dress_9_img_1" src="d7.png">
+                            </a>
+                            <h6 class="dress_9_h6">
+                            </h6>
+                            <div class="dress_9_star9">
+                                <a onclick="myfun9d(1)"><img title="image" id="stard91" class="stard9" src="star2.png"></a>
+                                <a onclick="myfun9d(2)"><img title="image" id="stard92" class="stard9" src="star2.png"></a>
+                                <a onclick="myfun9d(3)"><img title="image" id="stard93" class="stard9" src="star2.png"></a>
+                                <a onclick="myfun9d(4)"><img title="image" id="stard94" class="stard9" src="star2.png"></a>
+                                <a onclick="myfun9d(5)"><img title="image" id="stard95" class="stard9" src="star2.png"></a>
+                                <button title="button" class="stard9_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                    <!-- dress 10-->
+            
+                    <div class="dress_10_full"> 
+                        <div class="dress_10_content">
+                            <a class="dress_10_a0" onclick="myfun_buyd10()">
+                                <img title="image" class="dress_10_buy" src="brl.png">
+                             </a>
+                            <a class="dress_10_a">
+                                <img title="image" class="dress_10_img_1" src="d8.png">
+                            </a>
+                            <h6 class="dress_10_h6">
+                            </h6>
+                            <div class="dress_10_star10">
+                                <a onclick="myfun10d(1)"><img title="image" id="stard101" class="stard10" src="star2.png"></a>
+                                <a onclick="myfun10d(2)"><img title="image" id="stard102" class="stard10" src="star2.png"></a>
+                                <a onclick="myfun10d(3)"><img title="image" id="stard103" class="stard10" src="star2.png"></a>
+                                <a onclick="myfun10d(4)"><img title="image" id="stard104" class="stard10" src="star2.png"></a>
+                                <a onclick="myfun10d(5)"><img title="image" id="stard105" class="stard10" src="star2.png"></a>
+                                <button title="button" class="stard10_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- dress 11-->
+
+
+                    <div class="dress_11_full"> 
+                        <div class="dress_11_content">
+                            <a class="dress_11_a0" onclick="myfun1_buyd5()">
+                                <img title="image" class="dress_11_buy" src="brl.png">
+                             </a>
+                            <a class="dress_11_a">
+                                <img title="image" class="dress_11_img_1" src="d1d2.png">
+                            </a>
+                            <h6 class="dress_11_h6">
+                            </h6>
+                            <div class="dress_11_stard11">
+                                <a onclick="myfun11d(1)"><img title="image" id="stard111" class="stard11" src="star2.png"></a>
+                                <a onclick="myfun11d(2)"><img title="image" id="stard112" class="stard11" src="star2.png"></a>
+                                <a onclick="myfun11d(3)"><img title="image" id="stard113" class="stard11" src="star2.png"></a>
+                                <a onclick="myfun11d(4)"><img title="image" id="stard114" class="stard11" src="star2.png"></a>
+                                <a onclick="myfun11d(5)"><img title="image" id="stard115" class="stard11" src="star2.png"></a>
+                                <button type="button" title="button" class="stard11_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- dress 12-->
+                    
+                    <div class="dress_12_full"> 
+                        <div class="dress_12_content">
+                            <a class="dress_12_a0" onclick="myfun1_buyd2()">
+                                <img title="image" class="dress_12_buy" src="brl.png">
+                             </a>
+                            <a class="dress_12_a">
+                                <img title="image" class="dress_12_img_1" src="d4.png">
+                            </a>
+                            <h6 class="dress_12_h6">
+                            </h6>
+                            <div class="dress_12_stard12">
+                                <a onclick="myfun12d(1)"><img title="image" id="stard121" class="stard12" src="star2.png"></a>
+                                <a onclick="myfun12d(2)"><img title="image" id="stard122" class="stard12" src="star2.png"></a>
+                                <a onclick="myfun12d(3)"><img title="image" id="stard123" class="stard12" src="star2.png"></a>
+                                <a onclick="myfun12d(4)"><img title="image" id="stard124" class="stard12" src="star2.png"></a>
+                                <a onclick="myfun12d(5)"><img title="image" id="stard125" class="stard12" src="star2.png"></a>
+                                <button title="button" class="stard12_bt">submit</button> 
+                            </div> 
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+
+
+
+
+        </div>
+    
+
+        <br> <br> <br> 
+        <!-- the footer -->
+    
+        <div class="footer_1">
+
+            <div class="text_footer">
+                <div class="text_footer1">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer2">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer3">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer4">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer4">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer4">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer4">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+
+                <div class="text_footer4">
+                    &nbsp &nbsp &nbsp <h3>የምንሰጣቸው አገልግሎቶች</h3>
+                    <h4>ሙሉ የተማሪዎች ዩኒፎርም ማዘጋጀት</h4>
+                    <h4>የጽዳት ሰራተኞች ጋውን ማዘጋጀት</h4>
+                    <h4>የጥበቃ ሰራተኞች ልብስ ማዘጋጀት</h4>
+                    <h4>የመምህራን ጋውን ማዘጋጀት</h4>
+                    <h4>የህክምና ባለሙያዎች ጋውን ማዘጋጀት</h4>
+                </div>
+            </div>
+    
+            <div class="foot_12">
+                <h5 class="foot_12_text">
+                    አድራሻችን አቃቂ ቃሊቲ አቃቂ ገበያ ዳር ላይ ከኢትዮጲያ ንግድ ባንክ  
+                    አቃቂ ቃሊቲ ብራንች ትንሽ ገባ ብሎ ያገኙናል ካሉበት ሆነው በቀላሉ 
+                    ወደ እኛ ለመምጣት የሚከተለውን ሊንክ በመጫን 
+                    <a href="VQ9Q+74W, Addis Ababa">VQ9Q+74W, Addis Ababa</a>
+                     ወደ GዖዖGLዕ Mዐፕ በመሄድ እና አቅጥጫውን በመከተል በቀላሉ ያገኙናል ለበለጠ መረጃ 
+                    ከታች ባሉት ስልክ ቁጥሮች የድውሉ 
+                </h5>
+            </div>
+    
+            <div class="foot_11" >
+                <div class="foot_111">
+                    <a class="foot_113_al" href="@">contact us</a>
+                    <a class="foot_113_al" href="@">help</a>
+                    <a class="foot_113_al" href="@">company order</a>
+                    <a class="foot_113_al" href="@">school order</a>
+                    <a class="foot_113_al" href="@">NGO order</a>
+                </div>
+                <div class="foot_112">
+                    <a class="foot_113_al" href="@">contact us</a>
+                    <a class="foot_113_al" href="@">help</a>
+                    <a class="foot_113_al" href="@">company order</a>
+                    <a class="foot_113_al" href="@">school order</a>
+                    <a class="foot_113_al" href="@">NGO order</a>">NGO order</a>
+                </div>
+                <div class="foot_113">
+                    <a class="foot_113_al" href="@">contact us</a>
+                    <a class="foot_113_al" href="@">help</a>
+                    <a class="foot_113_al" href="@">company order</a>
+                    <a class="foot_113_al" href="@">school order</a>
+                    <a class="foot_113_al" href="@">NGO order</a>
+                </div>
+            </div>
+
+            <br> <br>
+
+            <div class="f4">
+                 <a class="foot_14_a"><img title="image" class="foot_14_im" src="yi.jfif"> youtube </a>
+                 <a class="foot_14_a"><img title="image" class="foot_14_im" src="tti.jfif"> TicTok </a> 
+                 <a class="foot_14_a"><img title="image" class="foot_14_im" src="mei.jfif"> Messenger </a> 
+                 <a class="foot_14_a"><img title="image" class="foot_14_im" src="tei.jfif"> telegram </a> 
+                 <a class="foot_14_a"><img title="image" class="foot_14_im" src="fi.jfif"> Feacbook </a>
+            </div>
+        </div>
+    </div>
+
+
+    <br> <br> <br>
+
+    <script src="index.js">
+
+    </script>
+
+    <!-- this is the sign up form-->
+
+    <div class="signup_form" >
+
+        <h1 class="signup_h1">ሀብቴ ዩኒፎርም መሸጫ</h1>
+
+        <button onclick="myfun_message(1)">back</button>
+
+        <fieldset class="fieldset_sp">
+            <legend> Sign up</legend> <br>
+
+            <lebel>Email</lebel>
+            &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp
+            &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input title="input" type="email" class="input_signup_email" value="l"> <br><br>
+
+            <lebel>phone number</lebel>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input title="input" type="" class="input_signup_phone" value="l"> <br><br>
+
+            <lebel>New Password</lebel>
+            &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp
+            <input title="input" type="password" class="input_signup_pw1" value="l"> <br> <br>
+
+            <lebel>confirm Password</lebel> &nbsp &nbsp &nbsp
+            <input title="input" type="password" class="input_signup_pwc" value="l"><br> <br>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+            <input title="input" type="submit" class="signup_submit" onclick="my_fun_signup_form()">
+        </fieldset>
+
+    </div>
+
+    <!-- this is the login form-->
+
+    <div class="login_form" >
+
+        <h1 class="login_h1">ሀብቴ ዩኒፎርም መሸጫ</h1>
+
+        <button type="button" title="button" onclick="myfun_message(1)">back</button>
+
+        <fieldset class="fieldset">
+            <legend> log in</legend> <br>
+            <lebel>Email</lebel> &nbsp &nbsp &nbsp
+            <input title="input" type="email" class="input_login_e" value="l"> <br><br>
+            <lebel>Password</lebel>
+            <input title="input" type="password" class="input_login_pw" value="l">
+            <br> <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input title="input" type="submit" class="input_submit" onclick="my_fun_login_form()">
+        </fieldset>
+    </div>
+
+    <!--this admin siide html -->
+
+    <div class="admin_side">
+
+        <h1 class="as_h1">ሀብቴ ዩኒፎርም መሸጫ</h1>
+        <button onclick="myfun_message(1)">back</button>
+
+        <div class="admin_side_shirt">
+
+            <fieldset class="afh">
+                <legend class="afsh">ሸሚዝ</legend>
+                <label class="al1">Enter the size</label> &nbsp
+
+                <input title="input" type="text"  class="input_size" value=""><br>
+                <label class="al2">Enter the color</label>
+                <input title="input" type="text"  class="input_color" value=""><br>
+                <label class="al3">Enter the price</label>
+                <input title="input" type="number"  class="input_price" value="">
+            </fieldset>
+            <br><br>
+
+            <div class="lo_ad1">
+                <button type="button" title="button" class="lo_ad" onclick="myfun1()">shirt_1</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun2()">shirt_2</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun3()">shirt_3</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun4()">shirt_4</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun5()">shirt_5</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun6()">shirt_6</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun7()">shirt_7</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun8()">shirt_8</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun9()">shirt_9</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun10()">shirt_10</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun11()">shirt_11</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfun12()">shirt_12</button>
+            </div>
+        </div>
+
+        <div class="admin_side_sweater">
+
+            <fieldset class="afh">
+                <legend class="afsw">ሹራብ</legend>
+                <label class="al1">Enter the size</label> &nbsp
+                <input title="input" type="text"  class="input_size1" value=""><br>
+                <label class="al2">Enter the color</label>
+                <input title="input" type="text"  class="input_color1" value=""><br>
+                <label class="al3">Enter the price</label>
+                <input title="input" type="number"  class="input_price1" value="">
+            </fieldset>
+
+            <br><br>
+
+            <div class="lo_ad1">
+                <button type="button" title="button" class="lo_ad" onclick="myfunw1()">ሹራብ_1</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw2()">ሹራብ_2</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw3()">ሹራብ_3</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw4()">ሹራብ_4</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw5()">ሹራብ_5</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw2()">ሹራብ_6</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw7()">ሹራብ_7</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw8()">ሹራብ_8</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw9()">ሹራብ_9</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw10()">ሹራብ_10</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw11()">ሹራብ_11</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunw12()">ሹራብ_12</button>
+            </div>
+
+        </div>
+
+        <div class="admin_side_trauther">
+
+            <fieldset class="afh">
+                <legend class="afsh">ሱሪ</legend>
+                <label class="al1">Enter the size</label> &nbsp
+                <input title="input" type=""  class="input_size2" value=""><br>
+                <label class="al2">Enter the color</label>
+                <input title="input" type=""  class="input_color2" value=""><br>
+                <label class="al3">Enter the price</label>
+                <input title="input" type=""  class="input_price2" value="">
+            </fieldset>
+            <br><br>
+
+            <div class="lo_ad1">
+                <button type="button" title="button" class="lo_ad" onclick="myfunt1()">ሱሪ_1</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt2()">ሱሪ_2</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt3()">ሱሪ_3</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt4()">ሱሪ_4</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt5()">ሱሪ_5</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt2()">ሱሪ_6</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt7()">ሱሪ_7</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt8()">ሱሪ_8</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt9()">ሱሪ_9</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt10()">ሱሪ_10</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt11()">ሱሪ_11</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfunt12()">ሱሪ_12</button>
+            </div>
+        </div>
+
+        <div class="admin_side_dress">
+
+            <fieldset class="afh">
+                <legend class="afsh">ቀሚሶች </legend>
+                <label class="al1">Enter the size</label> &nbsp
+                <input title="input" type=""  class="input_size4" value=""><br>
+                <label class="al2">Enter the color</label>
+                <input title="input" type=""  class="input_color4" value=""><br>
+                <label class="al3">Enter the price</label>
+                <input title="input" type=""  class="input_price4" value=""> <br>
+                <label class="al3">Enter the price</label>
+                <input title="input" type=""  class="input_shirt_number" value=""> <br>
+                <input title="input" type="submit"  class="input_submit_a" name="submit" value="">
+            </fieldset>
+            <br><br>
+
+            <div class="lo_ad1">
+                <button type="button" title="button" class="lo_ad" onclick="myfund1()">ቀሚሶች_1</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund2()">ቀሚሶች_2</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund3()">ቀሚሶች_3</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund4()">ቀሚሶች_4</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund5()">ቀሚሶች_5</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund6()">ቀሚሶች_6</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund7()">ቀሚሶች_7</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund8()">ቀሚሶች_8</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund9()">ቀሚሶች_9</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund10()">ቀሚሶች_10</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund11()">ቀሚሶች_11</button>
+                <button type="button" title="button" class="lo_ad" onclick="myfund12()">ቀሚሶች_12</button>
+            </div>
+        </div>
+
+        <p class="p12">good</p>
+    </div>
+
+    <!-- this is the scholpage form-->
+
+    <div class="school_page" id="school_page">
+
+        <div class="grade0">
+            <a class="back_bt_spage" onclick="myfunschool_page(0)">back</a>
+            <h1 class="head_grade" id="head_grade2">
+            </h1>
+            <img title="image" title="img_logo" class="img_logo" src="eth.png">
+        </div>
+
+        <div class="grade1">
+            <h4->ከ ኬጂ 1 እስከ ኬጂ 3</h4->
+            <button type="button" title="button" class="grade_bt" src="rauser"> ሱሪ  </button> <br>
+            <button type="button" title="button" class="grade_bt" src="skirt"> ቀሚስ </button> <br>
+            <button type="button" title="button" class="grade_bt" src="Knitting">ሹራብ  </button> <br>
+            <button type="button" title="button" class="grade_bt" src="shirt">   ሸሚዝ </button>
+            <h4>ከ 1ኛ ክፍል እስከ 6ኛ ክፍል</h4>
+            <button type="button" title="button" class="grade_bt" src="rauser">  ሱሪ  </button> <br>
+            <button type="button" title="button" class="grade_bt" src="skirt"> ቀሚስ </button> <br>
+            <button type="button" title="button" class="grade_bt" src="Knitting"> ሹራብ   </button> <br>
+            <button type="button" title="button" class="grade_bt" src="shirt"> ሸሚዝ </button>
+            <h4>ከ 7ኛ ክፍል እስከ 12ኛ ክፍል</h4> 
+            <button type="button" title="button" class="grade_bt" src="rauser">   ሱሪ </button> <br>
+            <button type="button" title="button" class="grade_bt" src="skirt">  ቀሚስ </button> <br>
+            <button type="button" title="button" class="grade_bt" src="Knitting"> ሹራብ </button> <br>
+            <button type="button" title="button" class="grade_bt" src="shirt">  ሸሚዝ </button>
+
+        </div>
+        <div class="grade2">
+            g
+        </div>
+
+
+    </div>
+
+
+    <!-- this is the message side form-->
+
+
+    <div class="message_side">
+        <div class="nav_bar1">
+            <h1 class="h1">
+                ሀብቴ ዩኒፎርም መሸጫ
+            </h1>
+            <button onclick="myfun_message(1)">back</button>
+        </div>
+
+        <div class="message_body">
+            <div  class="ai_icon">
+                <img title="image" title="img_logo" class="full_avater" src="fba2.png">
+            </div>
+
+            <div class="chat_av" >
+                <div id="ccc0" class="chat_av1">
+                    <div class="ccc011"  id="ccc01" >
+                        <img title="img" src="ava.png" class="icon_person">
+                    </div>
+                    <p id="p1" class="chat_av11">welcome to our official website! have you any quastion about us?</p>
+                </div>
+                <p id="demo" class="emp_par" ></p>
+            </div>
+        </div>
+
+        <div id="ccc" class="chat_cust">
+            <div class="cc011" id="cc01">
+                <img title="img" src="cust.png" class="icon_person">
+            </div>
+            <input title="input" id="cc" type="text" class="cust_chat" value=""> 
+            <input type="submit" class="cust_submit" onclick="myfun_messagec_side(0)">
+        </div>
+
+    </div>
+
+    <div class="custumer_side" style="display: none;">
+        <div class="nav_bar1">
+            <h1 class="h1">
+                ሀብቴ ዩኒፎርም መሸጫ
+            </h1>
+            <button title="button" type="button" onclick="myfun_message(1)">back</button>
+        </div>
+    </div>
+
+
+    
+        <a class="last_button" href="a_keyb/index.html">open amharic keyboard</a>
+
+    
+
+    <br> <br> <br>
+</body>
+</html>
